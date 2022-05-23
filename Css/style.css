@@ -54,20 +54,8 @@ body {
     border-radius: 10%;
     justify-content: center;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    background-color: #FFE69A;
-    margin-bottom: 10px;
-  }
 html {
     background-color: #FFFFFF;
   }
-  @media screen and (max-width:500px) {
-    nav {
-        flex-direction: column;
-        background-color: antiquewhite;
-        align-items: flex-start;
-      }
-  }
+
+ 

@@ -11,10 +11,23 @@
 </head>
 
 <body>
-  <nav><a href="#">HomePage</a> <a href="#">Details
-  </a> <a href="#">Contact </a></nav>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Info</a>
+              <a class="nav-link" href="#">Details</a>
+            </div>
+          </div>
+        </div>
+      </nav>
   <div class="header">
-    <img  class="personalPhoto" src="/ExampleRepo/Img/158125494_317558433700805_8788836379222726193_n.jpg" width="150" height="150" alt="Personal Photo">
+    <img  class="personalPhoto" src="Img/158125494_317558433700805_8788836379222726193_n.jpg" width="150" height="150" alt="Personal Photo">
     <h1>Sıtkı Tuğrul Yüksel</h1>
   </div>
   <div class="socialMediaLinks">
@@ -31,16 +44,18 @@
   </div>
   <div class="techStack">
     <p>Here is my tech stack!</p> 
-    <ul>
-      <li>.Net Core</li>
+    <ul id="techList">
+      <!-- <li>.Net Core</li>
       <li>Redis</li>
       <li>MSSQL</li>
       <li>ElasticSearch</li>
-      <li>Angular</li>
+      <li>Angular</li> -->
     </ul>
   </div>
-  <button type="button" class="btn btn-primary">Middle</button>
-  <script type="module" src="index.js"></script>
+  <script type="module" src="JS/index.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type = "text/JavaScript"  src="/node_modules/lodash/lodash.js"></script>
+  <script type="module" src="Js/jquery.js"></script>
 </body>
 
 </html>
