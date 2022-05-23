@@ -1,0 +1,22 @@
+{
+  "name": "stugrulyuksel",
+  "version": "1.0.0",
+  "description": "My Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stktrl/ExampleRepo.git"
+  },
+  "author": "Sitki Tugrul Yuksel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stktrl/ExampleRepo/issues"
+  },
+  "homepage": "https://github.com/stktrl/ExampleRepo#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
