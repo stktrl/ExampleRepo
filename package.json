@@ -4,7 +4,8 @@
   "description": "My Personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }

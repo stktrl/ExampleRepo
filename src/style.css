@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFontLightSitki;
-    src: url('../Fonts/Raleway-Regular.woff2');
+    src: url('../src/assets/Fonts/Raleway-Regular.woff2');
 }
 
 body {
@@ -22,11 +22,11 @@ body {
     margin-left: 20%;
     margin-right:20%;
     justify-content: center;
-    display: flex;
+    display: flex; 
     background-color: #92B4EC;
-    flex-direction: column;
+     flex-direction: column; 
     border-radius:50%;
-    align-items: center;
+     align-items: center;
 }
 .information{
     margin-top:2%;
@@ -36,12 +36,12 @@ body {
 .socialMediaLinks{
     margin-top: 2%;
     background-color: #FFE69A;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly;
     margin-left: 25%;
     margin-right: 25%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; */
 }
 .techStack{
     margin-top:2%;
